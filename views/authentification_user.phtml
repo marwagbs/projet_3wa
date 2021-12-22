@@ -1,0 +1,41 @@
+
+  	<section class="formdesing">
+   <div class="wrapper login">
+        <div class="containerForm">
+            <div class="col-left">
+                <div class="login-text">
+                    <h2>Welcome Back</h2>
+                    <p>Create your account.</p>
+                    <a href="registration.php" class="btn">Sign Up</a>
+                </div>
+            </div>
+
+            <div class="col-right">
+                <div class="login-form">
+                    <h2>Login</h2>
+                    <?= $message ?>
+                    <form action="" method="POST">
+                        <p>
+                            <label> email address<span>*</span></label>
+                            <input type="email" name="mail" id="mail" placeholder="Email" required>
+                        </p>
+                        <p>
+                            <label>Password<span>*</span></label>
+                            <input type="password" name="password" id="password" placeholder="Password" required>
+                        </p>
+                        <p>
+                            <input type="submit" value="Sign In">
+                        </p>
+                        <p>
+                            <a href="">Forget password?</a>
+                        </p>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    
